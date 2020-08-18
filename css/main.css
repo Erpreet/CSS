@@ -75,6 +75,15 @@
     word-wrap: normal !important;
   }
 
+  body{
+      max-width: 600 px;
+
+      margin-right: auto;
+      margin-left: auto;
+
+  }
+
+
   /*
   * Navigation Links
   */
@@ -128,3 +137,8 @@
 
       font-family: 'Red Rose', cursive;
   }
+
+  p:nth-of-type(3) img{
+    float: right;
+    margin-left: 32 px;
+    }
