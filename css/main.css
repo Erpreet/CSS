@@ -124,3 +124,7 @@
       font-family: 'Rubik', Arial, Helvetica, sans-serif;
   }
 
+  p:nth-of-type(3){
+
+      font-family: 'Red Rose', cursive;
+  }
