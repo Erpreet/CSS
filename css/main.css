@@ -8,6 +8,55 @@
     font-style:normal;
     
 }
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Regular.ttf');
+    src:url('../fonts/rubik/Rubik-Regular.ttf')
+    format('truetype');
+    font-weight : bolder;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-BlackItalic.ttf');
+    src:url('../fonts/rubik/Rubik-BlackItalic.ttf')
+    format('truetype');
+    font-weight : bolder;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-BoldItalic.ttf');
+    src:url('../fonts/rubik/Rubik-BoldItalic.ttf')
+    format('truetype');
+    font-weight : bold;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-Light.ttf');
+    src:url('../fonts/rubik/Rubik-Light.ttf')
+    format('truetype');
+    font-weight : lighter;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url('../fonts/rubik/Rubik-LightItalic.ttf');
+    src:url('../fonts/rubik/Rubik-LightItalic.ttf')
+    format('truetype');
+    font-weight : lighter;
+    font-style: italic;
+}
+
+
+
 /* Text meant only for screen readers. 
     @link https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
 */
