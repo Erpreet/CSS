@@ -6,8 +6,8 @@ html {background-color: salmon;}
     background-color: white;
     padding: 60px;
     border-top: 60px solid red;
-    border-top: 60px solid blue;
-    border-top: 60px solid yellow;
-    border-top: 60px solid green;
+    border-right: 60px solid blue;
+    border-bottom: 60px solid yellow;
+    border-left: 60px solid green;
     margin: 60 px
 }
