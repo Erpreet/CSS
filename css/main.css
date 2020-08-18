@@ -1,4 +1,13 @@
-
+@font-face{
+    font-family: 'Cherry Monospace - Light';
+    src: url('../fonts/cherry-monospace/Cherry\ Monospace-Light.ttf');
+    src: 
+    url('../fonts/cherry-monospace/Cherry\ Monospace-Light.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style:normal;
+    
+}
 /* Text meant only for screen readers. 
     @link https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
 */
@@ -20,11 +29,14 @@
   /*
   * Navigation Links
   */
+  h1{
+      font-family: 'Cherry Monospace-Light','Courier New', Courier, monospace;
+  }
   /* Any anchor anywhere inside of nav. */
   nav a{
       text-decoration: none; /*Gets rid of the underline! */
       color: rgb(0, 255, 0); /* There are few ways to handle color... name, RGB and hex are most common. HSL is also a option */
-      font-family: "Trebuchet MS" Helvetica, Arial, sans-serif;
+      font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
   }
 
   /* The "hover" state of any anchor (a) inside of a nav. (Pseudo-selector.) */
