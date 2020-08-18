@@ -14,7 +14,7 @@
     src: url('../fonts/rubik/Rubik-Regular.ttf');
     src:url('../fonts/rubik/Rubik-Regular.ttf')
     format('truetype');
-    font-weight : bolder;
+    font-weight : normal;
     font-style: normal;
 
 }
@@ -110,4 +110,17 @@
       list-style-type: square;
   }
 
+
+  /* Rubik testing */
+
+  .black-font{
+      font-weight: bolder;
+  }
+  .black-font{
+      font-weight: lighter;
+  }
+
+  h2, p{
+      font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  }
 
