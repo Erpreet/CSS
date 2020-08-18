@@ -34,6 +34,11 @@
       color: rgb(0,0,200);
   }
 
+  nav a:hover
+  {
+      color: #dd0000; /* Hex color. */
+  }
+
   /* "Direct descendant" - the UL must be directly inside the NAV. */
   nav > ul{
       list-style-type: square;
