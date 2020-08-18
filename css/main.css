@@ -24,7 +24,7 @@
   nav a{
       text-decoration: none; /*Gets rid of the underline! */
       color: rgb(0, 255, 0); /* There are few ways to handle color... name, RGB and hex are most common. HSL is also a option */
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Trebuchet MS" Helvetica, Arial, sans-serif;
   }
 
   /* The "hover" state of any anchor (a) inside of a nav. (Pseudo-selector.) */
