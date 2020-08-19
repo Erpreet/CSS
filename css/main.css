@@ -73,7 +73,7 @@
     position: absolute;
     width: 1px;
     word-wrap: normal !important;
-  }
+}
 
   body{
       max-width: 600 px;
@@ -146,11 +146,32 @@
     
     }
 
-    @media screen and (min-width: 400px )
-    {
-        p:nth-of-type(3) img{
+    @media screen and (min-width: 400px ){
+        html { background-color: #dddddd; }
+        
+        
+        
+        
+    
+    
+        
+        p:nth-of-type(3) img {
             max-width: 50%;
             float: right;
             margin-left: 32 px;
+        }
     }
+
+
+    @media screen and (min-width: 800px )
+    {html { background-color: #aaaaaa;}
+    }
+
+    @media screen and (min-width: 1024px )
+    {html { background-color: #999;}
+    }
+
+    @media screen and (min-width: 1200px )
+    {html { background-color: #777; }
 }
+
